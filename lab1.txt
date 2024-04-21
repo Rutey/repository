@@ -1,0 +1,41 @@
+alert("Здравствуйте")
+let num1 = prompt("Введите первое число")
+num1 = parseFloat(num1)
+let num2 = prompt("Введите второе число")
+num2 = parseFloat(num2)
+result = num1 + num2
+alert("Результат сложения: "+num1+"+"+num2+"="+result)}
+
+alert("Здравствуйте")
+let num1 = prompt("Введите первое число")
+num1 = parseFloat(num1)
+let num2 = prompt("Введите второе число")
+num2 = parseFloat(num2)
+result = num1 - num2
+alert("Результат вычитания: "+num1+"-"+num2+"="+result)}
+
+alert("Здравствуйте")
+let num1 = prompt("Введите первое число")
+num1 = parseFloat(num1)
+let num2 = prompt("Введите второе число")
+num2 = parseFloat(num2)
+result = num1 * num2
+alert("Результат умножения: "+num1+"*"+num2+"="+result)}
+
+alert("Здравствуйте")
+let num1 = prompt("Введите первое число")
+num1 = parseFloat(num1)
+let num2 = prompt("Введите второе число")
+num2 = parseFloat(num2)
+if (num2 === 0) {alert("На ноль делить нельзя, это изучают в 1-ом классе")}
+else {result = num1 / num2
+alert("Результат деления: "+num1+"/"+num2+"="+result)}
+
+alert("Здравствуйте")
+let num1 = prompt("Введите первое число")
+num1 = parseFloat(num1)
+let num2 = prompt("Введите второе число")
+num2 = parseFloat(num2)
+if (num2 === 0) {alert("На ноль делить нельзя, это изучают в 1-ом классе")}
+else {result = num1 % num2
+alert("Результат нахождения остатка от деления: "+num1+"%"+num2+"="+result)}
